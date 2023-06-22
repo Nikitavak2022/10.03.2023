@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int a = 50;
+    int &b = a;
+    cout << "a\t b\n";
+    cout << a << "\t" << b << endl;
+    a++;
+    cout << a << "\t" << b << endl;
+    b++;
+    cout << a << "\t" << b << endl;
+    return 0;
+}
